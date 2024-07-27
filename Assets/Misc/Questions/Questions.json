@@ -1,0 +1,761 @@
+{
+    "categories": [
+
+        {
+            "category": "Sports",
+            "questions": [
+
+                {
+                    "statement": "The Olympics are held every how many years?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "1 year",
+                        "2 years",
+                        "3 years",
+                        "4 years"
+                    ]
+                },
+                {
+                    "statement": "What sport is best known as the ‘king of sports’?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "Soccer",
+                        "Basketball",
+                        "Baseball",
+                        "Hockey"
+                    ]
+                },
+                {
+                    "statement": "What’s the national sport of Canada?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Hockey",
+                        "Rugby",
+                        "Lacrosse",
+                        "Soccer"
+                    ]
+                },
+                {
+                    "statement": "What country has competed the most times in the Summer Olympics yet hasn’t won a gold medal?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Japan",
+                        "China",
+                        "Switzerland",
+                        "The Philippines"
+                    ]
+                },
+                {
+                    "statement": "How many medals did China win at the Beijing Olympics?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "25",
+                        "50",
+                        "75",
+                        "100"
+                    ]
+                },
+                {
+                    "statement": "How many holes are played in an average round of golf?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "12",
+                        "18",
+                        "24",
+                        "36"
+                    ]
+                },
+                {
+                    "statement": "In meters, how big is an Olympic-sized swimming pool?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "100 meters long and 25 meters wide",
+                        "100 meters long and 50 meters wide",
+                        "50 meters long and 25 meters wide",
+                        "50 meters long and 50 meters wide"
+                    ]
+                },
+                {
+                    "statement": "What team owns the longest winning streak in NBA history?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "Los Angeles Lakers",
+                        "Golden State Warriors",
+                        "Chicago Bulls",
+                        "Boston Celtics"
+                    ]
+                },
+                {
+                    "statement": "What is the only country to have played in every single soccer World Cup?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Germany",
+                        "Spain",
+                        "Argentina",
+                        "Brazil"
+                    ]
+                },
+                {
+                    "statement": "What retired basketball player tried out for the Chicago White Sox in 1994?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Scottie Pippen",
+                        "Michael Jordan",
+                        "Larry Bird",
+                        "Magic Johnson"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "History",
+            "questions": [
+
+                {
+                    "statement": "Who was the first man on the moon?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Jeff Bezos",
+                        "Elon Musk",
+                        "Bill Gates",
+                        "Neil Armstrong"
+                    ]
+                },
+                {
+                    "statement": "Who was the first president of the United States?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "George Washington",
+                        "Donald Trump",
+                        "Abraham Lincoln",
+                        "Thomas Jefferson"
+                    ]
+                },
+                {
+                    "statement": "Who invented the lightbulb?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Nikola Tesla",
+                        "Thomas Edison",
+                        "Marie Curie",
+                        "Isaac Newton"
+                    ]
+                },
+                {
+                    "statement": "What country gifted the United States with the Statue of Liberty?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Germany",
+                        "Mexico",
+                        "France",
+                        "England"
+                    ]
+                },
+                {
+                    "statement": "What kingdom is the oldest monarchy in Europe?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "England",
+                        "Belgium",
+                        "Denmark",
+                        "Spain"
+                    ]
+                },
+                {
+                    "statement": "Which ancient civilization invented the wheel?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "Mesopotamia",
+                        "Egypt",
+                        "Maya",
+                        "Persian"
+                    ]
+                },
+                {
+                    "statement": "Which two countries fought in The Hundred Years War?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "United States and Russia",
+                        "England and France",
+                        "Germany and England",
+                        "South Korea and United States"
+                    ]
+                },
+                {
+                    "statement": "Who was the leader of Germany during World War II?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Ana Frank",
+                        "Ióssif Stalin",
+                        "Benito Mussolini",
+                        "Adolf Hitler"
+                    ]
+                },
+                {
+                    "statement": "How old was Queen Elizabeth II when she became queen?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "18 years old",
+                        "21 years old",
+                        "24 years old",
+                        "27 years old"
+                    ]
+                },
+                {
+                    "statement": "What’s the name of the oldest university in Europe?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "University of Barcelona",
+                        "University of Bologna",
+                        "University of Madrid",
+                        "University of Paris"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Science",
+            "questions": [
+
+                {
+                    "statement": "What element did Joseph Priestley discover in 1774?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "Oxygen",
+                        "Gold",
+                        "Silver",
+                        "Lithium"
+                    ]
+                },
+                {
+                    "statement": "What is the nearest planet to the sun?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Venus",
+                        "Mercury",
+                        "Earth",
+                        "Mars"
+                    ]
+                },
+                {
+                    "statement": "What is the largest known land animal?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Rhinoceros",
+                        "Python Snake",
+                        "Elephant",
+                        "Lizard"
+                    ]
+                },
+                {
+                    "statement": "Which of Newton’s Laws states that ‘for every action, there is an equal and opposite reaction?’",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "The first law of motion",
+                        "The second law of motion",
+                        "The third law of motion",
+                        "The fourth law of motion"
+                    ]
+                },
+                {
+                    "statement": "How many elements are there in the periodic table?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "115",
+                        "118",
+                        "120",
+                        "123"
+                    ]
+                },
+                {
+                    "statement": "Diabetes develops as the result of a problem with which specific organ in the body?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Brain",
+                        "Liver",
+                        "Stomach",
+                        "Pancreas"
+                    ]
+                },
+                {
+                    "statement": "What is the rarest blood type?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "AB+",
+                        "AB-",
+                        "O+",
+                        "O-"
+                    ]
+                },
+                {
+                    "statement": "Where is the world’s most active volcano located?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "La palma",
+                        "Sicilia",
+                        "Hawaii",
+                        "Himalaia"
+                    ]
+                },
+                {
+                    "statement": "Animals that eat both plants and meat are called what?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Carnivorous",
+                        "Herbivorous",
+                        "Omnivores",
+                        "Vegan"
+                    ]
+                },
+                {
+                    "statement": "What planet in our solar system has the most gravity?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Earth",
+                        "Saturn",
+                        "Mars",
+                        "Jupiter"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Geography",
+            "questions": [
+
+                {
+                    "statement": "What is the name of the tallest mountain in the world?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "K2",
+                        "Mount Everest",
+                        "Kangchenjunga",
+                        "Lhotse"
+                    ]
+                },
+                {
+                    "statement": "Which country has the largest population in the world? ",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "China",
+                        "United States",
+                        "India",
+                        "Thailand"
+                    ]
+                },
+                {
+                    "statement": "What is the name of the longest river in Africa?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Amazon",
+                        "Mississipi",
+                        "Volga",
+                        "The Nile River"
+                    ]
+                },
+                {
+                    "statement": "What is the name of the largest country in the world?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "China",
+                        "United States",
+                        "Russia",
+                        "Thailand"
+                    ]
+                },
+                {
+                    "statement": "What is the capital of Canada?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Toronto",
+                        "Ottawa",
+                        "Quebec",
+                        "Vancouver"
+                    ]
+                },
+                {
+                    "statement": "What is the name of the largest ocean in the world?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "The Pacific Ocean",
+                        "The Atlantic Ocean",
+                        "The Indian Ocean",
+                        "The Southern Ocean"
+                    ]
+                },
+                {
+                    "statement": "What is the name of the smallest country in the world?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Monaco",
+                        "Andorra",
+                        "San Marino",
+                        "The Vatican City"
+                    ]
+                },
+                {
+                    "statement": "How many States does the United States consist of?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "48",
+                        "50",
+                        "52",
+                        "54"
+                    ]
+                },
+                {
+                    "statement": "How many countries are there in the United Kingdom?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ]
+                },
+                {
+                    "statement": "What season does Australia experience in December?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Winter",
+                        "Spring",
+                        "Summer",
+                        "Autumn"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Art",
+            "questions": [
+
+                {
+                    "statement": "Which famous Renaissance artist painted the Mona Lisa?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Vincent Van Gogh",
+                        "Pablo Picasso",
+                        "Michaelangelo",
+                        "Leonardo Da Vinci"
+                    ]
+                },
+                {
+                    "statement": "What period is called the High Renaissance?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "1490 to 1527",
+                        "1274 to 1349",
+                        "1658 to 1706",
+                        "1710 to 1794"
+                    ]
+                },
+                {
+                    "statement": "Who painted The Creation of Adam?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Leonardo Da Vinci",
+                        "Michaelangelo",
+                        "Vincent Van Gogh",
+                        "Pablo Picasso"
+                    ]
+                },
+                {
+                    "statement": "Which god is featured in the Mesopotamian work Code of Hammurabi, created around BC 1792?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "God Shabash",
+                        "God Nabu",
+                        "God Anu",
+                        "God Nudimmud"
+                    ]
+                },
+                {
+                    "statement": "Salvador Dalí is associated with which art movement?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Scuola Romana",
+                        "Universal Constructivism",
+                        "Social Realism",
+                        "Surrealism"
+                    ]
+                },
+                {
+                    "statement": "Who painted the “Girl Before a Mirror” and “The Weeping Woman”?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Vincent Van Gogh",
+                        "Pablo Picasso",
+                        "Michaelangelo",
+                        "Leonardo Da Vinci"
+                    ]
+                },
+                {
+                    "statement": "Which artist died poor but became incredibly rich after his death?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Pablo Picasso",
+                        "Vincent Van Gogh",
+                        "Michaelangelo",
+                        "Leonardo Da Vinci"
+                    ]
+                },
+                {
+                    "statement": "Which Spanish painter is referred to as both the last of the old masters and the moderns?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Leonardo Da Vinci",
+                        "Pablo Picasso",
+                        "Francisco Goya",
+                        "Vincent Van Gogh"
+                    ]
+                },
+                {
+                    "statement": "What is Pablo Picasso’s style of artwork known as?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Impressionist",
+                        "Contemporary",
+                        "Cubism",
+                        "Abstract"
+                    ]
+                },
+                {
+                    "statement": "La Gioconda is better known as what?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Guernica",
+                        "The Mona Lisa",
+                        "The Starry Night",
+                        "Nighthawks"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Entertainment",
+            "questions": [
+
+                {
+                    "statement": "What 1927 musical was the first “talkie”?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "The Jazz Singer",
+                        "The Pop Singer",
+                        "The Classic Singer",
+                        "The Opera Singer"
+                    ]
+                },
+                {
+                    "statement": "For which 1964 musical blockbuster did Julie Andrews win the Academy Award for Best Actress?",
+                    "correct": 2,
+
+                    "answers": [
+
+                        "Peter Pan",
+                        "Mamma Mia",
+                        "Mary Poppins",
+                        "Cabaret"
+                    ]
+                },
+                {
+                    "statement": "What singer has had a Billboard No. 1 hit in each of the last four decades?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Miley Cyrus",
+                        "Mariah Carey",
+                        "Ariadna Grande",
+                        "Shakira"
+                    ]
+                },
+                {
+                    "statement": "What rock icon was the founder of The Society for the Prevention of Cruelty to Long-haired Men?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Elvis Presley",
+                        "Rod Stewart",
+                        "Elton John",
+                        "David Bowie"
+                    ]
+                },
+                {
+                    "statement": "What was Madonna‘s first top 10 hit?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Crazy for You",
+                        "Holiday",
+                        "Frozen",
+                        "4 Minutes"
+                    ]
+                },
+                {
+                    "statement": "What was Elvis Presley‘s first No. 1 hit in the United States?",
+                    "correct": 3,
+
+                    "answers": [
+
+                        "Always On My Mind",
+                        "In The Ghetto",
+                        "Hound Dog",
+                        "Heartbreak Hotel"
+                    ]
+                },
+                {
+                    "statement": "What does Lady Gaga affectionately call her fans?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "Little Monsters",
+                        "Kings",
+                        "Boomers",
+                        "Queens"
+                    ]
+                },
+                {
+                    "statement": "What pop star wrote songs for Ariana Grande, Miley Cyrus, Britney Spears and Alice Cooper?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "Shakira",
+                        "Kesha",
+                        "Adele",
+                        "Beyonce"
+                    ]
+                },
+                {
+                    "statement": "Keith Moon and John Entwistle of The Who are said to have inspired the name of which other classic rock band?",
+                    "correct": 0,
+
+                    "answers": [
+
+                        "Led Zeppelin",
+                        "AC/DC",
+                        "The Rolling Stones",
+                        "Aerosmith"
+                    ]
+                },
+                {
+                    "statement": "Prince introduced his iconic symbol on the cover of which single?",
+                    "correct": 1,
+
+                    "answers": [
+
+                        "1998",
+                        "1999",
+                        "2000",
+                        "2001"
+                    ]
+                }
+            ]
+        }
+    ]
+}
