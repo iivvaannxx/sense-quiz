@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  📥 <a href="#">Download</a>
+  📥 <a href="https://github.com/iivvaannxx/sense-quiz/releases/tag/1.0.0">Download</a>
   <span>&nbsp;·&nbsp;</span>
   🔑 <a href="https://github.com/iivvaannxx/sense-quiz?tab=GPL-3.0-1-ov-file">License</a>
   <p></p>
@@ -40,7 +40,7 @@ The game consists of a quiz of 10 questions, each one with 4 possible answers. T
 
 The game is not distributed on the Google Play Store, so you need to manually download and install the `.apk` file on your Android device. Here is a step-by-step guide on how to do it:
 
-1. Download the game from the [releases page](#).
+1. Download the game from the [releases page](https://github.com/iivvaannxx/sense-quiz/releases/tag/1.0.0).
 2. Copy the `.apk` file to your Android device.
 3. Open the file manager on your device and navigate to the folder where you copied the `.apk` file.
 4. Tap on the `.apk` file to start the installation process. If you get a warning about installing apps from unknown sources, you need to allow it in the settings.
