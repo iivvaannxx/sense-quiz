@@ -100,20 +100,23 @@ namespace SenseQuiz.Gameplay {
                 /// <summary> Welcomes the player by speaking the welcome monologue. </summary>
                 private void WelcomePlayer () { 
 
-                    this._acceptsInput = true;
-                    this._currentSingleTouchCallback = () => {
-
-                        this._acceptsInput = false;
-                        AudioManager.Instance.PlaySound("Confirm");
-                        UserInterfaceManager.Instance.MonologueText.FadeOut(Welcome.SpawnConfigurator);
-                    };
-                    
                     // Speak the initial monologue.
-                    EasySpeech.SpeakMonologue(Welcome._welcomeText, VoiceLanguage.AmericanEnglish, 1f, 1f, () => {
+                    var cancel = EasySpeech.SpeakMonologue(Welcome._welcomeText, VoiceLanguage.AmericanEnglish, 1f, 1f, () => {
 
                         AndroidVibrator.Vibrate(200);
                         AndroidTouchManager.TouchVibrationDuration = 100;
                     });
+
+                    this._acceptsInput = true;
+                    this._currentSingleTouchCallback = () => {
+
+                        this._acceptsInput = false;
+                        cancel();
+
+                        AudioManager.Instance.PlaySound("Confirm");
+                        UserInterfaceManager.Instance.MonologueText.FadeOut(Welcome.SpawnConfigurator);
+                    };
+                    
                 }
 
 

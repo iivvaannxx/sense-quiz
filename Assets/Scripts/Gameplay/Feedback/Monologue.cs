@@ -8,6 +8,8 @@
     using SenseQuiz.Gameplay.Feedback;
     using SenseQuiz.Utilities;
 
+    using TextSpeech;
+
 #endregion
 
 
@@ -53,6 +55,9 @@ namespace SenseQuiz.Gameplay.Definitions {
 
             /// <summary> An internal copy of the dialogs used to speak them one by one. </summary>
             private List <Dialog> _dialogsCopy;
+
+            /// <summary> Was the reading cancelled? </summary>
+            private bool _readCancelled = false;
 
         #endregion
 
@@ -104,21 +109,30 @@ namespace SenseQuiz.Gameplay.Definitions {
                  * <param name = "done"> Callback fired after the text has been speaked. </param>
                 */
                 
-                [PublicAPI] public void Speak (string locale = "es-ES", float rate = 1.0f, float pitch = 1.0f, [CanBeNull] Action done = null) {
+                [PublicAPI] public Action Speak (string locale = "es-ES", float rate = 1.0f, float pitch = 1.0f, [CanBeNull] Action done = null) {
 
                     if (this.Dialogs.Count > 0) {
 
                         // Create the copy in order to start the talk,
                         this._dialogsCopy = this.Dialogs.ToList();
                         this.IsBeingSpoken = true;
-                        
-                        // Start the speak.
-                        this.InternalSpeak(locale, rate, pitch, () => {
 
+                        this.InternalSpeak(locale, rate, pitch, () => {
                             this.IsBeingSpoken = false;
                             done?.Invoke();
                         });
+                        
+                        // Start the speak.
+                        return () => {
+                            TextToSpeech.instance.StopSpeak();
+                            this._readCancelled = true;
+                            this.IsBeingSpoken = false;
+
+                            done?.Invoke();
+                        };
                     }
+
+                    return () => { };
                 }
 
             #endregion
@@ -142,6 +156,12 @@ namespace SenseQuiz.Gameplay.Definitions {
                         // Recursively speak all the dialogs until finished.
                         EasySpeech.SpeakWithSettings(this._dialogsCopy [0].Line, locale, rate, pitch, () => TimeHelpers.SetTimeout(
                             this._dialogsCopy [0].AfterDelay, () => {
+
+                                if (this._readCancelled) {
+
+                                    this._dialogsCopy.Clear();
+                                    return;
+                                }
                                 
                                 // Was the last dialog.
                                 if (this._dialogsCopy.Count == 1) {

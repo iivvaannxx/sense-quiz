@@ -29,12 +29,12 @@ namespace SenseQuiz.Gameplay {
                 new Dialog ("Please, select one of the following categories.\n", 1.4f),
                 
                 new Dialog ("1. Art.", 0.8f),
-                new Dialog ("2. Mixed.", 0.8f),
-                new Dialog ("3. Sports.", 0.8f),
-                new Dialog ("4. History.", 0.8f),
-                new Dialog ("5. Science.", 0.8f),
-                new Dialog ("6. Geography.", 0.8f),
-                new Dialog ("7. Entertainment.", 0.8f)
+                new Dialog ("2. Sports.", 0.8f),
+                new Dialog ("3. History.", 0.8f),
+                new Dialog ("4. Science.", 0.8f),
+                new Dialog ("5. Geography.", 0.8f),
+                new Dialog ("6. Entertainment.", 0.8f),
+                new Dialog ("7. Mixed.", 0.8f)
             );
             
             
@@ -53,10 +53,10 @@ namespace SenseQuiz.Gameplay {
             /// <summary> Maps the necessary number of touches needed to select a category to it's respective category. </summary>
             private static readonly Dictionary <int, QuestionCategories> _categories = new Dictionary<int, QuestionCategories> {
                 
-                { 0, QuestionCategories.None      },  { 1, QuestionCategories.Art },     
-                { 2, QuestionCategories.Mixed     },  { 3, QuestionCategories.Sports },  
-                { 4, QuestionCategories.History   },  { 5, QuestionCategories.Science }, 
-                { 6, QuestionCategories.Geography },  { 7, QuestionCategories.Entertainment }
+                { 0, QuestionCategories.None },  { 1, QuestionCategories.Art },     
+                { 2, QuestionCategories.Sports },  { 3, QuestionCategories.History },  
+                { 4, QuestionCategories.Science },  { 5, QuestionCategories.Geography }, 
+                { 6, QuestionCategories.Entertainment },  { 7, QuestionCategories.Mixed }
             };
 
 
@@ -80,7 +80,7 @@ namespace SenseQuiz.Gameplay {
 
             private void Start () {
 
-                TimeHelpers.SetTimeout(1f, () => {
+                TimeHelpers.SetTimeout(0.5f, () => {
                     AudioManager.Instance.FadeInLooped("Background", 1.5f, this.ChooseCategory);
                 });
             }
@@ -111,7 +111,7 @@ namespace SenseQuiz.Gameplay {
                     UserInterfaceManager.Instance.MonologueText.FadeIn(() => {
                         
                         // Speak the selection monologue.
-                        EasySpeech.SpeakMonologue(GameConfigurator._categoryMonologue, VoiceLanguage.BritishEnglish, 1f, 1f, () => {
+                        EasySpeech.SpeakMonologue(GameConfigurator._categoryMonologue, VoiceLanguage.AmericanEnglish, 1f, 1f, () => {
 
                             this._acceptsInput = true;
                             AndroidVibrator.Vibrate(100);

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47c5eb8ed5b4e7599a89f0c075c1e67, type: 3}
   m_Name: English 1
   m_EditorClassIdentifier: 
-  <CurrentLanguage>k__BackingField: 2
-  <Rate>k__BackingField: 1
+  <CurrentLanguage>k__BackingField: 3
+  <Rate>k__BackingField: 1.2
   <Pitch>k__BackingField: 1

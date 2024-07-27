@@ -61,10 +61,10 @@ namespace SenseQuiz.Gameplay.Feedback {
                  * <param name = "done"> Callback fired after the text has been speaked. </param>
                 */
                 
-                public static void SpeakMonologue ([NotNull] Monologue monologue, VoiceLanguage language, float rate = 1.0f, float pitch = 1.0f, [CanBeNull] Action done = null) {
+                public static Action SpeakMonologue ([NotNull] Monologue monologue, VoiceLanguage language, float rate = 1.0f, float pitch = 1.0f, [CanBeNull] Action done = null) {
 
                     var locale = LocaleHelpers.GetPrefixFromLanguage(language);
-                    monologue.Speak(locale, rate, pitch, done);
+                    return monologue.Speak(locale, rate, pitch, done);
                 }
 
 
