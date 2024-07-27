@@ -26,9 +26,13 @@
 > [!IMPORTANT]
 > The game uses a TextToSpeech library that only works on Android devices, if you open this project in the Unity Editor and try to play it, you won't hear any voice and it probably won't work as expected, because the game expects touch inputs to be used.
 
-## 📖 Introduction
+## ⚠️ Disclaimer
 
 This game was created as a project for a college subject. The main objective was **to create a game playable by people with visual impairments or blindness**. Feel free to download and play it, but keep in mind that it's a bit slow-paced and simple. If you're an anxious or impatient person, and you're not interested in the accessibility aspect, you might not enjoy it.
+
+Also, if you're a developer looking at the code, be aware that is quite the spaghetti code, don't judge me 😆, I was quite a noob when I wrote this.
+
+## 📖 Introduction
 
 The game consists of a quiz of 10 questions, each one with 4 possible answers. There are 7 different categories of questions, and the player can choose which one to play. The game has a narrator that reads the questions and answers, and the player can choose the answer by touching the screen. 
 
